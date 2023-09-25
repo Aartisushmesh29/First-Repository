@@ -45,12 +45,15 @@ p{
     left: 50%;
     
 }
-li {
+li { 
+    list-style-type: none;
     padding: 15px 20px 15px 20px;
     margin: 5px 5px 5px 5px;
 }
 a{
     padding: 10px;
+    font-size: 18px;
+    border: 1px solid red ; 
     
 }
 
@@ -63,8 +66,11 @@ ul{
 }
 .nav-btn:hover{
     transition-duration: 0.25s;
-    font-size:16px;
+    font-size:16px;           
 
 
+}
+li {
+    list-style-type: none;
 }
 
